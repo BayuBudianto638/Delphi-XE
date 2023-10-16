@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{83DAAB81-E549-4CC5-BA52-DEAB3F9909F6}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="pDelphiTest.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="pUnitTest.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="pDelphiTest">
+        <MSBuild Projects="pDelphiTest.dproj"/>
+    </Target>
+    <Target Name="pDelphiTest:Clean">
+        <MSBuild Projects="pDelphiTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pDelphiTest:Make">
+        <MSBuild Projects="pDelphiTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pUnitTest">
+        <MSBuild Projects="pUnitTest.dproj"/>
+    </Target>
+    <Target Name="pUnitTest:Clean">
+        <MSBuild Projects="pUnitTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pUnitTest:Make">
+        <MSBuild Projects="pUnitTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="pDelphiTest;pUnitTest"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="pDelphiTest:Clean;pUnitTest:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="pDelphiTest:Make;pUnitTest:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

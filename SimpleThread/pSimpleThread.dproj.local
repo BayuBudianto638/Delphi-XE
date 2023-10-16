@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023-02-15 14:25:39.000.809,=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023-10-16 20:43:39.003,=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023-10-16 20:45:25.572,X:\Delphi\SimpleThread\uUtama.dfm=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2023-10-16 20:45:25.572,X:\Delphi\SimpleThread\uUtama.pas=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023-10-16 20:45:34.845,X:\Delphi\SimpleThread\pSimpleThread.dproj=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

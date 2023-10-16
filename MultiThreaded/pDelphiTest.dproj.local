@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023-02-15 14:25:39.000.809,=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023-10-16 16:06:24.475,=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023-10-16 16:09:10.147,X:\Delphi\uUtama.pas=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023-10-16 16:09:10.147,X:\Delphi\uUtama.dfm=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2023-10-16 16:09:17.849,X:\Delphi\pDelphiTest.dproj=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>2023-10-16 16:19:25.194,=X:\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023-10-16 16:19:34.552,X:\Delphi\Sort\uBubbleSort.pas=X:\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023-10-16 16:25:54.038,=X:\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023-10-16 16:26:06.323,X:\Delphi\Sort\uQuickSort.pas=X:\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023-10-16 16:33:00.434,=X:\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023-10-16 16:33:11.773,X:\Delphi\Helper\uHelper.pas=X:\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023-10-16 20:02:28.371,X:\Delphi\Sort\uQuickSort.pas=</Transaction>
+    <Transaction>2023-10-16 20:02:34.249,X:\Delphi\Helper\uHelper.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
