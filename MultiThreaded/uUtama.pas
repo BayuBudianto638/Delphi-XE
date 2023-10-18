@@ -20,12 +20,6 @@ type
     { Public declarations }
   end;
 
-const
-  ArraySize = 5;
-
-var
-  Arr: array[0..ArraySize - 1] of Integer;
-
 var
   frmSort: TfrmSort;
 

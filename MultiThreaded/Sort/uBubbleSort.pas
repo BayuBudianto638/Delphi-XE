@@ -20,9 +20,6 @@ uses
 
 implementation
 
-const
-  ArraySize = 5;
-
 var
   Arr: array of Integer;
 
@@ -73,7 +70,6 @@ begin
   end;
 
   try
-
     SetLength(Threads, NumThreads);
     chunkSize := Length(Arr) div NumThreads;
 
